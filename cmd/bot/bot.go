@@ -252,7 +252,7 @@ var FRIENDS *SoundCollection = &SoundCollection{
 		createSound("ramos_dooky", 75, 250),
 		createSound("ramos_fuck", 35, 250),
 		createSound("ramos_hate", 50, 250),
-		createSound("ramous_huh", 100, 250),
+		createSound("ramos_huh", 100, 250),
 		createSound("ramos_NO", 25, 250),
 		createSound("ramos_outta", 75, 250),
 		createSound("tru", 50, 250),
@@ -312,8 +312,8 @@ var SMASH *SoundCollection = &SoundCollection{
 		createSound("roy_chant", 35, 250),
 		createSound("roy_death", 45, 250),
 		createSound("yoshi", 100, 250),
-		createSound("yoshio_death", 45, 250),
-		createSound("yoshio_eat", 70, 250),
+		createSound("yoshi_death", 45, 250),
+		createSound("yoshi_eat", 70, 250),
 	},
 }
 
