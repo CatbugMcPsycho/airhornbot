@@ -259,6 +259,24 @@ var FRIENDS *SoundCollection = &SoundCollection{
 	},
 }
 
+var PAT *SoundCollection = &SoundCollection{
+	Prefix: "friends_pat",
+	Commands: []string{
+		"!pat",
+		"!patrick",
+	},
+	Sounds: []*Sound{
+		createSound("pat_down", 45, 250),
+		createSound("pat_fake", 90, 250),
+		createSound("pat_meme", 50, 250),
+		createSound("pat_retch", 5, 250),
+		createSound("pat_stop", 95, 250),
+		createSound("pat_time", 75, 250),
+		createSound("pat_yes", 100, 250),
+		createSound("raf_tru", 95, 250),
+	},
+}
+
 var DOTA *SoundCollection = &SoundCollection{
 	Prefix: "dota",
 	Commands: []string{
@@ -301,7 +319,7 @@ var SMASH *SoundCollection = &SoundCollection{
 		createSound("fox_cmon", 100, 250),
 		createSound("fox_death", 45, 250),
 		createSound("fox_fire", 60, 250),
-		createSound("luigi_Death", 45, 250),
+		createSound("luigi_death", 45, 250),
 		createSound("luigi_oof", 100, 250),
 		createSound("luigi_yippy", 25, 250),
 		createSound("nar_torny", 15, 250),
@@ -408,6 +426,7 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	SPONGEBOB,
 	BEAR,
 	FRIENDS,
+	PAT,
 	DOTA,
 	SMASH,
 	ANIME,
