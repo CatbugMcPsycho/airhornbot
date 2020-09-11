@@ -375,6 +375,7 @@ var WEEW *SoundCollection = &SoundCollection{
 		createSound("chris_wtf", 65, 250),
 		createSound("danny_ohoho", 70, 250),
 		createSound("devin_ayaeyae", 60, 250),
+		createSound("devin_done", 65, 250),
 		createSound("devin_nlt", 100, 250),
 		createSound("devin_NOO", 45, 250),
 		createSound("devin_ohfuck", 25, 250),
